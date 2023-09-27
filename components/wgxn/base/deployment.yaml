@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: wgxn
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-etqs-tenant/byoc-app-vceu/wgxn@sha256:d727f09788fa66e55584d4590860e691d748403e5bc8e97eb5f02e25b61d3dd6
         name: my-java-quarkus
         ports:
         - containerPort: 8081
